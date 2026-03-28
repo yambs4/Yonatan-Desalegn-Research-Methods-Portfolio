@@ -11,7 +11,7 @@ Reusable framework for computing sample sizes for RCTs, quasi‑experimental stu
 ## 2. Required Inputs
 - Minimum detectable effect (MDE)  
 - Significance level (α = 0.05 typical)  
-- Power (1−β = 0.8 or 0.9)  
+- Power (1−β = 0.8)  
 - Standard deviation (SD)  
 - ICC (clustered designs)  
 - Average cluster size (m)  
