@@ -101,13 +101,13 @@ I used an MS Word document (.docx) syned to a OneDrive. Version control and trac
 
 Documentation (Markdown Files):
 
-[link](analysis_plan_template.md) (Generic Analysis Plan)
+Generic Analysis Plan [link](analysis_plan_template.md)
 
-[link](sampling_power_template.md) (Sampling Strategy & Power Calculation)
+Sampling Strategy & Power Calculation [link](sampling_power_template.md)
 
-[link](xlsform_logic_example.md) (XLSForm Logic Example)
+XLSForm Logic Example [link](xlsform_logic_example.md)
 
-[link](cleaning_template.md) (Data Cleaning + Reproducibility Instructions)
+Data Cleaning + Reproducibility Instructions [link](cleaning_template.md)
 
 ---
 
