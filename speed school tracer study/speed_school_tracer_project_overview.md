@@ -99,40 +99,29 @@ I used an MS Word document (.docx) syned to a OneDrive. Version control and trac
 
 ---
 
-## samples and artifacts
+Documentation (Markdown Files):
 
-- **Generic Analysis Plan Template** 
-  ./analysis_plan_template.md
+analysis_plan_template.md (Generic Analysis Plan)
 
-- **Sampling Strategy & Power Calculation Example**  
-  ./sampling_power_template.md
+sampling_power_template.md (Sampling Strategy & Power Calculation)
 
-- **XLSForm Logic Example**  
-  ./xlsform_logic_example.md
+xlsform_logic_example.md (XLSForm Logic Example)
 
-**Quantitative analysis Templates**
+cleaning_workflow.md (Data Cleaning + Reproducibility Instructions)
 
-- **Data Cleaning + Reproducibility Workflow**  
-  ./python_cleaning_template.md
+Executable Code / Scripts:
 
-- **PSM template for generating impact estimates (Stata)**  
-  ./stata_did_template.md
+cleaning_template.md (Data Cleaning + Reproducibility)
 
 ---
 
 ## 5. Visual & non‑text deliverables
 
 - **Generic Visuals**  
-  ./visuals_gallery.md
-
-- **QGIS/ArcGIS Public Boundary Map Example**  
-  ./gis_examples.md
-
-- **Training / TOT Toolbox Slides (Generic)**  
-  ./training_toolbox.md
+  visuals_gallery.md
 
 - **Redacted Methods‑Only Excerpts**  
-  ./methods_section_redacted.md
+  methods_section_redacted.md
 
 ---
 
