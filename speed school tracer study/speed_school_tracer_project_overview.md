@@ -114,10 +114,10 @@ Data Cleaning + Reproducibility Instructions [link](dependencies/cleaning_templa
 ## 5. Visual & non‑text deliverables
 
 - **Generic Visuals**  
-  visuals_gallery.md
+  [visuals gallery](visuals\visuals_gallery.md)
 
 - **Redacted Methods‑Only Excerpts**  
-  methods_section_redacted.md
+  [methods section redacted](dependencies\methods_section_redacted.md)
 
 ---
 
