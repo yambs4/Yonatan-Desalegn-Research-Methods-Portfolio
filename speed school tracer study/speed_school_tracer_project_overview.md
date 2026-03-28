@@ -137,24 +137,25 @@ I used an MS Word document (.docx) syned to a OneDrive. Version control and trac
 ---
 
 ## 6. Folder Structure
-
-recruitment
-ethical_clearance
-tools
-- paper_based
-- forms
-data
-- raw
-- cleaned
-code
-output
-- tables
-- visualizations
-report
-- live_documents
-- submissions
-- feedback_and_revisions
-- slide_decks
-documents
-
+```
+project_root/
+├── recruitment/
+├── ethical_clearance/
+├── tools/
+│   ├── paper_based/
+│   └── forms/
+├── data/
+│   ├── raw/
+│   └── cleaned/
+├── code/
+├── output/
+│   ├── tables/
+│   └── visualizations/
+├── report/
+│   ├── live_documents/
+│   ├── submissions/
+│   ├── feedback_and_revisions/
+│   └── slide_decks/
+└── documents/
+```
 
