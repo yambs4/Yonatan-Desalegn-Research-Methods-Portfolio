@@ -6,8 +6,8 @@ I have selected three of the most relevant projects I have worked on:
 
 ---
 
-## 1) Speed School Tracer Study
-Repository: https://github.com/yambs4/SSP_tracer_study (private repo)
+## 1) [Speed School Tracer Study](speed%20school%20tracer%20study/speed_school_tracer_project_overview.md)
+Repository: https://github.com/yambs4/SSP_tracer_study (private repo protcted by NDA)
 
 Short description
 - Replication and analysis code for the Speed School Program (SSP) tracer study and impact evaluation in Afar (Amibara and Asaita) and Somali (Babile) regions of Ethiopia.
@@ -26,7 +26,7 @@ My contributions (end-to-end
 ---
 
 ## 2) The Leprosy Mission International - Ethiopia (TLMIE) project endline evaluation
-Repository: https://github.com/yambs4/TLMIE_endline_eval (private repo)
+Repository: https://github.com/yambs4/TLMIE_endline_eval (private repo protcted by NDA)
 
 Short description
 - Code and data repo for the impact evaluation of community-based training and disability inclusion facilitators methodology on governance and food security.
@@ -44,7 +44,7 @@ My contributions
 ---
 
 ## 3) EMERTA project endline evaluation (rolling baseline based)
-Repository: https://github.com/yambs4/EMERTA_project (private repo)
+Repository: https://github.com/yambs4/EMERTA_project (private repo protcted by NDA)
 
 Short description
 - The Ethiopians Motivating Enterprises to Rise in Trade and Agri-business (EMERTA) project repo has Stata-based scripts and results for evaluation components of the EMERTA project (field evaluation and analysis workflows).
