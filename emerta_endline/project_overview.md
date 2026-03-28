@@ -142,8 +142,41 @@ I did extensive processing of these variables, including:
 - Gender and household characteristics
 - Loan access, saving behavior, and multi‑response fields
 
+Additionally, the evaluation used qualitative data:
+
+- Key Informant Interviews
+- 6 case studies
+- Most Significant Change interviews
+- Project documentation, including manuals and performance reports
+
 ### Data, privacy, and ethics
 
+**Data ethics**
+
+- Enumerators obtained verbal informed consent before data collection, and participation in surveys and interviews was voluntary. 
+- Given the evaluation took place in areas affected by conflict and political instability, my team monitored security conditions continuously and adapted field activities to ensure participant and enumerator safety.
+- Sensitive socioeconomic data (income, poverty, gender roles, financial access) were handled carefully to avoid stigmatization of vulnerable households.
+- The evaluation’s design was aligned with client’s gender equality and social inclusion (GESI) principles, collecting gender‑disaggregated data and using approaches that encouraged safe participation of women.
+
+
+**Data anonymization**
+
+- Personal identifiers were removed from the analytical datasets. Variables such as kebele, woreda, sex, and sector were encoded into categorical numeric values.
+
+**Secure storage & access Control**
+
+- Data was collected on a secured tablet.
+- Raw and cleaned datasets were stored in designated directories with strictly controlled access.
+- The final evaluation report notes that identifiable producer or MSME information was not disclosed publicly.
+
+**Sensitive data handling**
+- Because the dataset contained financial, employment, and poverty‑related variables, only aggregated and anonymized outputs (means, percentages, ATT estimates, graphs) were reported.
+- Only variables required for outcome measurement and impact evaluation were retained after cleaning; redundant, unused, or sensitive variables were removed.
+
+Although the raw EMERTA dataset is not publicly shareable due to NDA and privacy constraints, the evaluation methodology aligns strongly with FAIRER principles (Findable, Accessible, Interoperable, Reusable, Ethical, and Reproducible).
+
+My Stata workflow uses deterministic code and reproducible pipelines: `foreach`, `forval`, `append`, `teffects`, `postfile`, `graph export`.
+All steps from import → cleaning → inflation adjustment → outcome tracking → PSM → graphing are scripted.
 
 ---
 
@@ -151,12 +184,38 @@ I did extensive processing of these variables, including:
 
 ### Tools & software I used
 
+**1. Stata (Primary Statistical Software)**
+Stata was the core analytical environment for the entire evaluation pipeline. It was used for:
 
+- Data import, cleaning, harmonization, and restructuring
+- Parsing multi‑response survey items using loops (foreach, forval), generating variables, recoding, destringing, and labeling
+- Inflation adjustment using CPI‑based deflator construction
+- Computation of descriptive statistics, ANOVA, chi‑square tests, and tabulations
+- Propensity Score Matching (PSM) using `teffects psmatch` with ATT estimation and balance/overlap diagnostics (`teoverlap`, `tebalance`)
+- Poverty Probability Index (PPI) estimation using logit models and predicted probabilities
+- Graphing and visualization using twoway, bar, hbar, pie, rcap, and grc1leg/grc1leg2 for multi‑panel plots
+- Used `kobo2stata` — for conversion of KoboToolbox data formats to stata (`.dta`) data format and labelling
+- Used `grc1leg` and `grc1leg2` — combining graphs with shared legends
+- Used `spmap`, `shp2dta`, `mif2dta` — for spatial data handling and map rendering
+- Used `schemepack` - for enhanced graph aesthetics for publication‑quality visuals
+
+**2. MS Excel (For Cost‑Benefit Analysis & supplementary work)**
+
+- While I used Stata to prepare the cleaned and inflation‑adjusted datasets, the Cost‑Benefit Analysis (CBA) computations were finalized in Excel.
+
+**3. KoboToolbox (Data Collection Platform)**
+
+- The final evaluation survey data were collected digitally using KoboToolbox forms. The baseline (BL) and and annual progress (AP) data were provided by the client.
+
+**5. GitHub for version‑controlled code production**
+- GitHub was used for version conttrol. 
+
+**6. Microsoft Word 
+- MS Word used for producing final narrative reports. Document version control for accessing document history and the tracked changes function was used to track client feedback and revisions.
 
 ### Reporting Template
 
-
-
+The reporting followed a standard evaluation form. It has sections for project logic indicator tracking, for impact analysis reporting, and for OECD-DAC based evaluation reporting. An outline of the reporting template can be found [here](dependencies/reporting_template.md).
 
 ### Deliverables I produced
 
@@ -194,6 +253,7 @@ All figures were exported as .gph and PNG files. Links to replications of some o
 
 ## 7. Folder structure
 
+This ensured reproducibility, environment consistency, and clean separation of input, intermediate, and output data.
 
 
 ---
