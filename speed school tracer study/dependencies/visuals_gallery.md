@@ -19,8 +19,8 @@ Histogram: [`fig_hist.png`](visuals/figures/fig_hist.png)
 Kernel density: [`fig_kd.png`](visuals/figures/fig_kd.png)
 Combined density [`fig_combo.png`](visuals/figures/fig_combo.png)
 
-Stata Code:
-See [Stata built-in Graphs do file](visuals/scripts/stata_graphs.do) for the code
+Stata do file:
+See [Stata built-in graphs](visuals/scripts/stata_graphs.do) for the code
 
 
 ## 2. Custom ATT Impact Graph
@@ -30,5 +30,5 @@ This figure replicates the impact (ATT + CI) plot style used in the Speed School
 
 Impact (ATT-style) graph: [`impact_replication.png`](visuals/figures/impact_replication.png)
 
-Stata Code:
-See: [Stata custom att graph do file](visuals/scripts/att_impact_graph.do)
+Stata do file:
+See: [stata custom att graph](visuals/scripts/att_impact_graph.do)

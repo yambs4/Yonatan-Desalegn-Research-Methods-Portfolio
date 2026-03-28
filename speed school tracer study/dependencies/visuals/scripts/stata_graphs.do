@@ -1,7 +1,7 @@
 * Modified Stata Code for replicating the graphs used for reporting
 
 * Install dependencies
-// ssc install schemepack , replace
+// ssc install schemepack , replace //uncomment if schemepack is not installed
 
 * Set environment variables
 set scheme gg_tableau
