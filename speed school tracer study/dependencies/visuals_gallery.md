@@ -12,15 +12,15 @@ Generated from the standard Stata dataset: auto.dta.
 
 **Figures**
 
-Bar chart: [`fig_bar.png`](fig_bar.png)
-Horizontal bar chart: [`fig_hbar.png`](fig_hbar.png)
-Pie chart: [`fig_pie.png`](fig_pie.png)
-Histogram: [`fig_hist.png`](fig_hist.png)
-Kernel density: [`fig_kd.png`](fig_kd.png)
-Combined density [`fig_combo.png`](fig_combo.png)
+Bar chart: [`fig_bar.png`](visuals/figures/fig_bar.png)
+Horizontal bar chart: [`fig_hbar.png`](visuals/figures/fig_hbar.png)
+Pie chart: [`fig_pie.png`](visuals/figures/fig_pie.png)
+Histogram: [`fig_hist.png`](visuals/figures/fig_hist.png)
+Kernel density: [`fig_kd.png`](visuals/figures/fig_kd.png)
+Combined density [`fig_combo.png`](visuals/figures/fig_combo.png)
 
-Stata Code:
-See [stata_builtin_graphs.do](stata_graphs.do) for the code
+Stata do file:
+See [Stata built-in graphs](visuals/scripts/stata_graphs.do) for the code
 
 
 ## 2. Custom ATT Impact Graph
@@ -28,7 +28,7 @@ This figure replicates the impact (ATT + CI) plot style used in the Speed School
 
 **Figure**
 
-Impact (ATT-style) graph: [`impact_replication.png`](impact_replication.png)
+Impact (ATT-style) graph: [`impact_replication.png`](visuals/figures/impact_replication.png)
 
-Stata Code:
-See: [stata_custom_att_graph.do](att_impact_graph.do)
+Stata do file:
+See: [stata custom att graph](visuals/scripts/att_impact_graph.do)
