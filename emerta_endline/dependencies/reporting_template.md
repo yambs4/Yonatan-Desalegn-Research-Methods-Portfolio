@@ -175,10 +175,10 @@ Each recommendation included:
 
 ## 9. Annexes
 
-Annex 1: Detailed methodology
-Annex 2: Survey tools (questionnaires, KII/FGD guides)
-Annex 3: Additional tables and figures
-Annex 4: Data dictionary and codebook
-Annex 5: Stata do‑file (GitHub repo)
+- Annex 1: Detailed methodology
+- Annex 2: Survey tools (questionnaires, KII/FGD guides)
+- Annex 3: Additional tables and figures
+- Annex 4: Data dictionary and codebook
+- Annex 5: Stata do‑file (GitHub repo)
 Annex 6: Ethical approval documents
 Annex 7: List of stakeholders consulted
