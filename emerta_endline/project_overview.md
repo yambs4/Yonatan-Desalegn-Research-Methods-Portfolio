@@ -9,8 +9,9 @@
 ---
 
 ## 1. Project Background
+The EMERTA Final Evaluation applied a mixed‑methods, multi‑round impact evaluation design built on a rolling baseline survey system. Quantitative data were collected from six MSME cohorts and seven producer cohorts between 2017 and 2024, with each cohort receiving a Baseline (BL), Annual Progress (AP), and Final Evaluation (FE) survey. The project (2016–2024) supported agricultural and gemstone value chain development in Ethiopia's Amhara region. 
 
-The EMERTA Project (2016–2024) supported agricultural and gemstone value chain development in Ethiopia's Amhara region. It targeted:
+It targeted:
 
 - Producer income growth
 - MSME performance improvement (EBIT, sales, customers, assets)
@@ -18,7 +19,7 @@ The EMERTA Project (2016–2024) supported agricultural and gemstone value chain
 - Gender equality & environmental sustainability
 - System-level capacity building and enabling environment reforms
 
-## 2. My role on the evaluation team included:
+## 2. My role on the evaluation team as atechnical lead included:
 
 - Running rolling baseline, annual progress, and final evaluation analyses in Stata
 - Harmonizing multiple (10 including the endline survey) rounds of survey data
@@ -29,8 +30,62 @@ The EMERTA Project (2016–2024) supported agricultural and gemstone value chain
 - Creating publication-quality graphs (.gph) for the final evaluation reporting
 - Running poverty estimation (using PPI method)
 - Generating disaggregated results (sector × gender × cohort × survey round)
-- Preparing outputs for the final evaluation report
+- Writing final evaluation report
 
 > All examples in this repo use dummy public data for illustration.
 
 ---
+
+## 3. Methodology and workflow
+
+
+---
+
+## 4. Data
+
+### Sources
+
+
+### Data, privacy, and ethics
+
+
+---
+
+## 4. Data cleaning, management, analysis, & reporting
+
+### Tools & software I used
+
+
+
+### Reporting Template
+
+
+
+
+### Deliverables I produced
+
+
+
+
+
+### High‑level outcomes (client‑neutral & non‑numerical)
+
+
+
+
+
+---
+
+## 5. Documentation and code snippets (client‑neutral & non‑numerical)
+
+
+---
+
+5. Visual & non‑text deliverables
+
+Generic Visuals
+
+
+
+
+
