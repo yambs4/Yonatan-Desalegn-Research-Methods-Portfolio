@@ -219,20 +219,43 @@ The reporting followed a standard evaluation form. It has sections for project l
 
 ### Deliverables I produced
 
+**1. Cleaned & Harmonized Datasets (Stata .dta Files)**
+- Cleaned Baseline, Annual Progress, and Final Evaluation datasets for producer farmers and MSMEs
 
+**2. Final Evaluation Report**
+- A comprehensive narrative evaluation report including, executive summary, evaluation design & methodology, quantitative and qualitative findings, OECD‑DAC criterion‑based assessment, conclusions and detailed recommendations
 
+**3. Summary Report**
+A shorter, stakeholder‑friendly summary of the full evaluation, delivered as a standalone document.
 
+11. Stata Code (.do files)
+A structured, reproducible codebase including:
 
-### High‑level outcomes (client‑neutral & non‑numerical)
+- Data import & cleaning modules
+- Multi-response parsing scripts
+- Inflation adjustment module
+- Intermediate & immediate outcome computation
+- PPI module
+- PSM modules (LR & SR impacts)
+- Graphing scripts
 
+### High‑level outcomes (client‑neutral)
 
-
-
-
+- The project strengthened value‑chain systems and institutional environments. These included stronger partnerships with government, enhanced TVET curricula, improved licensing systems in the gemstone sector, and increased availability of business development services.
+- Positive shifts were observed in producer and MSME business performance. Across sectors, participating producers and enterprises experienced improvements in operational practices, including better record‑keeping, strengthened customer engagement, enhanced product quality awareness, and greater familiarity with market dynamics.
+- Adoption of improved technologies and sustainable practices increased. Beneficiaries reported higher use of time‑saving and environmentally sustainable technologies, alongside increased knowledge of good agricultural practices and safer input management.
+- Gender equality awareness and inclusion were strengthened. The evaluation highlighted increases in gender awareness, joint decision‑making, and the use of program approaches that encouraged participation of women.
+- Increased access to market linkages and support services. While market access outcomes were mixed, many clients reported better market information, stronger linkages, and improved access to services and technologies, especially where producer–MSME interactions were intentionally facilitated.
+- Project beneficiaries demonstrated enhanced financial literacy and engagement. Although access to loans varied, clients showed improved saving behavior and knowledge of financial services, supported by tools such as matching grants and loan‑guarantee mechanisms.
+- The project showed adaptability to shocks (conflict, displacement, COVID‑19)
+- Project results were largely aligned with local priorities and development goals
+- The project contributed to more resilient households and enterprises
+  
 ---
 
-## 5. Documentation and code snippets (client‑neutral & non‑numerical)
+## 5. Documentation and code snippets (client‑neutral)
 
+- Stata code snippets showing my workflow. See [here](dependencies/stata_workflow_code_snippets.md).
 
 ---
 
@@ -255,6 +278,27 @@ All figures were exported as .gph and PNG files. Links to replications of some o
 
 This ensured reproducibility, environment consistency, and clean separation of input, intermediate, and output data.
 
+### Project Directory Structure
+
+```text
+project_root/
+├── survey_tool/
+│   ├── paper_based/
+│   └── xls_forms/
+├── code/
+├── data/
+│   ├── raw/
+│   │   ├── baseline/
+│   │   ├── annual_progress/
+│   │   ├── final_evaluation/
+│   │   ├── registers/
+│   │   └── financial_data/
+│   └── cleaned/
+└── reports_and_submissions/
+    ├── live_document/
+    ├── submitted_report/
+    └── revisions_and_feedback/
+```
 
 ---
 
