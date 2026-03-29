@@ -3,6 +3,7 @@
 
 # Stata workflow
 
+> Stata workflow and commands match the original do‑file structure but avoid any NDA‑protected content.
 ---
 
 ## 1. Data Import & Setup
