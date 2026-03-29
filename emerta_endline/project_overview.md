@@ -256,7 +256,8 @@ A structured, reproducible codebase including:
 ## 5. Documentation and code snippets (client‑neutral)
 
 - Stata code snippets showing my workflow. See [here](dependencies/stata_workflow_code_snippets.md).
-
+- XLSForm form logic snippets for electronic survey form deployment. See [here](dependencies/xlsform_logic.md).
+- Survey flow diagrams. See [here](dependencies/xlsform_flow.md).
 ---
 
 ## 6. Visual & non‑text deliverables
