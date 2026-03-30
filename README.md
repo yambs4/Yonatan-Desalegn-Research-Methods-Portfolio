@@ -43,7 +43,7 @@ My contributions
 
 ---
 
-## 3) EMERTA project endline evaluation (rolling baseline based)
+## 3) [EMERTA project endline evaluation (rolling baseline based)](emerta_endline/project_overview.md)
 Repository: https://github.com/yambs4/EMERTA_project (private repo protcted by NDA)
 
 Short description
