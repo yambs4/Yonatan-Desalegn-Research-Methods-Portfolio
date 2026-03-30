@@ -270,7 +270,7 @@ Dozens of graphs were produced using Stata’s graph, twoway, bar, hbar, and grc
 - PPI distributions
 - Gender equality & sustainability indicators
 
-All figures were exported as .gph and PNG files. Links to replications of some of these graphs using Stata is linked in the documentation below.
+All figures were exported as .gph and PNG files. Links to replications of some of these graphs using Stata is linked in the documentation [here](dependencies/stata_graphs_replication.do).
 
 
 ---
