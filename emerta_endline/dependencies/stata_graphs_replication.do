@@ -1,4 +1,3 @@
-
 *===============================================================================
 * REPLICATION OF EMERTA PROJECT VISUALS 
 * Using Publicly Available Data (nlsw88, census, auto)
@@ -18,7 +17,7 @@ graph bar (mean) gnp96, over(survey_type) ///
     title("Income Trends (Proxy)") ///
     blabel(bar, format(%9.1f)) ytitle("Mean Income Level") ///
     note("Replicating ebit/gross_revenue tracking logic")
-
+	graph export "1_income_trend.png", replace width(1800)
 * 2. EMPLOYMENT LEVELS
 * Logic: Tracking full-time/part-time employment using 'nlsw88'
 sysuse nlsw88, clear
@@ -31,7 +30,8 @@ tabstat $outcome2, statistic(mean median sd n) by(survey_type)
 graph bar hours, over(survey_type) by(race) ///
     title("Employment Levels (Hours Worked)") ///
     blabel(bar, format(%9.1f))
-
+	graph export "2_employment_levels.png", replace width(1800)
+	
 * 3. BUSINESS PERFORMANCE CHANGES
 * Logic: Box plots to show distribution changes across sectors
 sysuse auto, clear
@@ -40,6 +40,7 @@ encode sector_type, gen(sector_n)
 
 graph box price, over(sector_n) title("Business Performance Distribution") ///
     ytitle("Performance Metric (Price Proxy)")
+	graph export "3_business_performance_changes.png", replace width(1800)
 
 * 4. PPI DISTRIBUTIONS (Poverty Probability Index)
 * Logic: Replicating your mapping of scores to poverty rates
@@ -53,6 +54,7 @@ replace pvty_rts = 0.85234120 if ppi_score < 30
 
 kdensity pvty_rts, title("PPI Distribution (Poverty Rates)") ///
     xtitle("Poverty Probability") lcolor(black)
+	graph export "4_ppi_distributions.png", replace width(1800)
 
 * 5. GENDER EQUALITY & SUSTAINABILITY INDICATORS
 * Logic: Pie charts with 'over' and 'by' logic (Snippet 13)
@@ -65,6 +67,7 @@ gen counter = 1
 graph pie counter, over(gender_equality) by(race) ///
     pie(1, explode) plabel(_all percent, format(%9.2f)) ///
     title("Gender Equality Indicators") legend(rows(1))
+	graph export "5_gesi.png", replace width(1800)
 
 * 6. PSM IMPACT GRAPHS (Propensity Score Matching)
 * Logic: Replicating teffects psmatch and overlap/balance visuals (Snippet 6-8)
@@ -75,6 +78,4 @@ teffects psmatch (wage) (union age grade i.race)
 * Replicating overlap plot (as seen in your .gph saves)
 teoverlap, title("PSM Overlap: Treatment vs Control") ///
     xtitle("Propensity Score")
-
-* Replicating balance plot
-tebalance density age, title("Covariate Balance: Age")
+	graph export "6_psm_impact.png", replace width(1800)
