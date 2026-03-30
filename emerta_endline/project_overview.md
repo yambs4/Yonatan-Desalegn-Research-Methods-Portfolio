@@ -264,11 +264,13 @@ A structured, reproducible codebase including:
 
 Dozens of graphs were produced using Stata’s graph, twoway, bar, hbar, and grc1leg commands to visualize:
 
-- Income trends
-- Employment levels
-- Business performance changes
-- PPI distributions
-- Gender equality & sustainability indicators
+- [Income trends](dependencies/visuals/1_income_trend.png)
+- [Employment levels](dependencies/visuals/2_employment_levels.png)
+- [Business performance changes](dependencies/visuals/3_business_performance_changes.png)
+- [PPI distributions](dependencies/visuals/4_ppi_distributions.png)
+- [Gender equality & sustainability indicators](dependencies/visuals/5_gesi.png)
+- [PSM based impact graphs](dependencies/visuals/7_psm_impact.png)
+- [PSM based overlap graphs](dependencies/visuals/6_psm_impact.png)
 
 All figures were exported as .gph and PNG files. Links to replications of some of these graphs using Stata is linked in the documentation [here](dependencies/stata_graphs_replication.do).
 
