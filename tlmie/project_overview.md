@@ -147,13 +147,13 @@ The final deliverable synthesized statistical evidence with qualitative insights
 
 ## Documentation
 
-Analysis Plan [link](dependencies/analysis_plan_template.md)
+Analysis Plan [link](dependencies/pre_analysis_plan.md)
 
-Sampling Strategy & Power Calculation [link](dependencies/sampling_power_template.md)
+Sampling Strategy & Power Calculation [link](dependencies/sampling_strategy.md)
 
-XLSForm Logic Example [link](dependencies/xlsform_logic_example.md)
+XLSForm Logic Example [link](dependencies/xlsform_logic_snippets.md)
 
-Data Cleaning + Reproducibility Instructions [link](dependencies/cleaning_template.md)
+Data Cleaning + Reproducibility Instructions [link](dependencies/cleaning_and_reproduceability.md)
 
 ## Visual & non‑text deliverables
 
