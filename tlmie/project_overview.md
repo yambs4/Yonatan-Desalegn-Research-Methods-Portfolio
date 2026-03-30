@@ -157,21 +157,20 @@ Data Cleaning + Reproducibility Instructions [link](dependencies/cleaning_templa
 
 ## Visual & non‑text deliverables
 
-- **Visualization code and gallery**
-  - [Beneficiary vs Non-Beneficiary Bar Chart](dependencies/visuals/bar_beneficiary_mock.png)
-  - [Alternative Pie Chart](dependencies/visuals/pie_beneficiary_mock.png)
-  - [Gender viz Beneficiary Status](dependencies/visuals/gender_beneficiary_mock.png)
-  - [Household Size Distribution](dependencies/visuals/hh_size_mock.png)
-  - [Disability types and level prevalence](dependencies/visuals/disability_panel_mock.png)
-  - [Sunburst style distribution graph](dependencies/visuals/sunburst_mock.png)
-  - [PSM Impact](dependencies/visuals/psm_att_mock.png)
+**Visualization code and gallery**
 
 - [visualizations code](dependencies/visualizations_stata_code.do)
 
 **Graphs gallery**
 
-- XXXXX
-- XXXXX
+- [Beneficiary vs Non-Beneficiary Bar Chart](dependencies/visuals/bar_beneficiary_mock.png)
+- [Alternative Pie Chart](dependencies/visuals/pie_beneficiary_mock.png)
+- [Gender viz Beneficiary Status](dependencies/visuals/gender_beneficiary_mock.png)
+- [Household Size Distribution](dependencies/visuals/hh_size_mock.png)
+- [Disability types and level prevalence](dependencies/visuals/disability_panel_mock.png)
+- [Sunburst style distribution graph](dependencies/visuals/sunburst_mock.png)
+- [PSM Impact](dependencies/visuals/psm_att_mock.png)
+
 
 ---
 
