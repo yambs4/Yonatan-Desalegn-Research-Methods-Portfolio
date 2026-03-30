@@ -155,10 +155,15 @@ XLSForm Logic Example [link](dependencies/xlsform_logic_example.md)
 
 Data Cleaning + Reproducibility Instructions [link](dependencies/cleaning_template.md)
 
-## ## Visual & non‑text deliverables
+## Visual & non‑text deliverables
 
-- **Generic Visuals**  
-  [visuals gallery](dependencies/visuals_gallery.md)
+- **Visualization code and gallery**
+- [visualizations code](dependencies/visualizations_stata_code.do)
+
+**Graphs gallery**
+
+- XXXXX
+- XXXXX
 
 ---
 
