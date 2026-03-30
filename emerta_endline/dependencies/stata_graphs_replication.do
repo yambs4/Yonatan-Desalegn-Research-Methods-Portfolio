@@ -79,3 +79,62 @@ teffects psmatch (wage) (union age grade i.race)
 teoverlap, title("PSM Overlap: Treatment vs Control") ///
     xtitle("Propensity Score")
 	graph export "6_psm_impact.png", replace width(1800)
+
+*==============================================================================
+* REPLICATION OF CUSTOM IMPACT GRAPHS
+* Using public 'nlsw88' data
+*==============================================================================
+clear all
+sysuse nlsw88, clear
+
+* 1. Prepare Synthetic Cohorts (To mimic your 'year' or 'survey_type' logic)
+set seed 1234
+gen year = .
+replace year = 2018 in 1/700
+replace year = 2019 in 701/1400
+replace year = 2020 in 1401/l
+label var year "Evaluation Year"
+
+* 2. Define Variables (Mimicking $xvars and $attsr)
+* Treatment: union status | Outcome: wage | Covariates: age, grade, married
+global xvars age grade married i.race
+
+* 3. Postfile Setup (Logic from Snippet: capturing ATT, SE, and CIs)
+tempname att_results
+postfile `att_results' str20 category year att se ci_lower ci_upper using "replicated_impact.dta", replace
+
+* 4. Loop through 'Years' to calculate impact (Mimicking your forval i = 1/6 logic)
+levelsof year, local(years)
+foreach y in `years' {
+    * Run PSM for the specific cohort
+    quietly teffects psmatch (wage) (union $xvars) if year == `y', atet
+    
+    * Extract results (Logic from your snippet)
+    matrix tbl = r(table)
+    local att      = tbl[1,1]
+    local se       = tbl[2,1]
+    local ci_lower = tbl[5,1]
+    local ci_upper = tbl[6,1]
+    
+    * Post to results file
+    post `att_results' ("Overall") (`y') (`att') (`se') (`ci_lower') (`ci_upper')
+}
+postclose `att_results'
+
+* 5. Replicate the Impact Graph (Logic: graph twoway rcap + dot)
+use "replicated_impact.dta", clear
+
+graph twoway ///
+    (rcap ci_lower ci_upper year, lcolor(gs10)) ///  /* Confidence Intervals */
+    (dot att year, msize(medium) mcolor(navy))  ///  /* ATT Estimate */
+    , ///
+    yline(0, lcolor(red) lpattern(dash)) ///
+    xscale(range(2017 2021)) ///
+    xlabel(2018(1)2020) ///
+    title("Impact on Wages over Time (ATT)") ///
+    subtitle("Replicating MSME/Producer Impact Logic") ///
+    ytitle("Average Treatment Effect (Wage)") ///
+    xtitle("Survey Year") ///
+    legend(order(2 "ATT" 1 "95% CI")) ///
+    scheme(s2color)
+
