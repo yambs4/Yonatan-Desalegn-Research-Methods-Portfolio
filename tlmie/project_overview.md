@@ -24,6 +24,7 @@ This project focused on strengthening inclusive governance and improving food se
 - Capacity building for grassroots advocacy
 
 The endline evaluation assessed whether participation, inclusion, and food security outcomes improved among target households and organizations, using a rigorous mixed‑methods design.
+
 ---
 
 ## 2. My End‑to‑End evaluation workflow
@@ -143,3 +144,33 @@ I authored the full endline evaluation report, including:
 
 The final deliverable synthesized statistical evidence with qualitative insights into a coherent evaluation narrative.
 
+
+## Documentation
+
+Analysis Plan [link](dependencies/analysis_plan_template.md)
+
+Sampling Strategy & Power Calculation [link](dependencies/sampling_power_template.md)
+
+XLSForm Logic Example [link](dependencies/xlsform_logic_example.md)
+
+Data Cleaning + Reproducibility Instructions [link](dependencies/cleaning_template.md)
+
+## ## Visual & non‑text deliverables
+
+- **Generic Visuals**  
+  [visuals gallery](dependencies/visuals_gallery.md)
+
+---
+
+## Folder structure
+
+```text
+TLMIE_endline/
+│
+├── data_clean/              # Cleaned datasets (DTA)
+├── xlsforms/                # Tool 1–5 XLSForms
+├── scripts/                 # Stata .do scripts
+├── results/                 # Graphs, tables, outputs
+├── report/                  # Final PDF report
+└── project_overview.md      # This file
+```
