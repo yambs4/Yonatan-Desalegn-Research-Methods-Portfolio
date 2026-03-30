@@ -99,7 +99,7 @@ I used an MS Word document (.docx) syned to a OneDrive. Version control and trac
 
 ---
 
-Documentation (Markdown Files):
+## Documentation (Markdown Files):
 
 Generic Analysis Plan [link](dependencies/analysis_plan_template.md)
 
