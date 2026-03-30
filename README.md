@@ -25,7 +25,7 @@ My contributions (end-to-end
 
 ---
 
-## 2) The Leprosy Mission International - Ethiopia (TLMIE) project endline evaluation
+## 2) [The Leprosy Mission International - Ethiopia (TLMIE) project endline evaluation](dependencies/XLSForm_Logic_snippets.md)
 Repository: https://github.com/yambs4/TLMIE_endline_eval (private repo protcted by NDA)
 
 Short description
