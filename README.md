@@ -25,7 +25,7 @@ My contributions (end-to-end
 
 ---
 
-## 2) [The Leprosy Mission International - Ethiopia (TLMIE) project endline evaluation](emerta_endline/project_overview.md)
+## 2) The Leprosy Mission International - Ethiopia (TLMIE) project endline evaluation
 Repository: https://github.com/yambs4/TLMIE_endline_eval (private repo protcted by NDA)
 
 Short description
@@ -43,7 +43,7 @@ My contributions
 
 ---
 
-## 3) EMERTA project endline evaluation (rolling baseline based)
+## 3) [EMERTA project endline evaluation (rolling baseline based)](emerta_endline/project_overview.md)
 Repository: https://github.com/yambs4/EMERTA_project (private repo protcted by NDA)
 
 Short description
